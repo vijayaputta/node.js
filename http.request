@@ -1,0 +1,6 @@
+const http=require('http');
+http.createServer((req,res)=> {
+    res.write('HI VIJAYA');
+    res.end();
+    console.log('server is running...')
+}).listen(8080)
